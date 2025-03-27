@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Gamer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo Loja Gamer">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#promocoes">Promoções</a></li>
+                <li><a href="#consoles">Consoles</a></li>
+                <li><a href="#jogos">Jogos</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="O que deseja buscar?">
+            <button>Buscar</button>
+        </div>
+    </header>
+    
+<!-- Substitua a seção do banner existente por esta: -->
+<section class="banner-carousel">
+    <div class="banner active">
+        <img src="./img/banner1.PNG" alt="Banner Promocional 1">
+    </div>
+    <div class="banner">
+        <img src="./img/banner2.PNG" alt="Banner Promocional 2">
+    </div>
+    <div class="banner">
+        <img src="./img/banner3.PNG" alt="Banner Promocional 3">
+    </div>
+    
+    <!-- Controles do carrossel -->
+    <button class="carousel-control prev">&#10094;</button>
+    <button class="carousel-control next">&#10095;</button>
+    
+    <!-- Indicadores -->
+    <div class="carousel-indicators"></div>
+</section>
+
+    <section class="mais-vendidos">
+        <h2>OS MAIS VENDIDOS</h2>
+        <div class="produtos">
+            <div class="produto">
+                <img src="./img/jogo1.PNG" alt="Jogo 1">
+                <h3>Jogo 1</h3>
+                <p>Jogo do ano</p>
+                <p class="preco">R$ 182,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="./img/jogo2.PNG" alt="Jogo 2">
+                <h3>Jogo 2</h3>
+                <p>Jogo top de linha</p>
+                <p class="preco">R$ 152,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="./img/jogo3.PNG" alt="Jogo 3">
+                <h3>Jogo 3</h3>
+                <p>Melhor de todos</p>
+                <p class="preco">R$ 172,00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Desenvolvimento por DEV-jaimison</p>
+        <button class="voltar-topo">Voltar ao topo</button>
+    </footer>
+</body>
+</html>
